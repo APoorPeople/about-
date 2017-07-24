@@ -14,7 +14,7 @@ A: select distinct name from table where name not in (select distinct name from 
 select name from table group by name having min(fenshu)>80  
 
 # 2. 学生表 如下:  
-自动编号   学号   姓名 课程编号 课程名称 分数
+自动编号   学号   姓名 课程编号 课程名称 分数  
 1        2005001 张三 0001     数学    69  
 2        2005002 李四 0001      数学    89  
 3        2005001 张三 0001      数学    69  
